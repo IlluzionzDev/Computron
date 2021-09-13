@@ -1,0 +1,11 @@
+@import '../css/colors.scss';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+// Our main background colour
+body {
+    background-color: $secondary-blue;
+}
