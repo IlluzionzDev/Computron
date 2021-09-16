@@ -3,7 +3,7 @@
 </script>
 
 <header>
-	<img src="{background}" alt="Background" class="header-background"> 
+	<img src={background} alt="Background" class="header-background" />
 	<div class="container">
 		<nav>
 			<ul>
@@ -59,6 +59,11 @@
 				a {
 					color: $white;
 					text-decoration: none;
+					transition: 200ms ease-in-out;
+
+					&:hover {
+						color: $secondary-blue;
+					}
 				}
 
 				// Position first element on left
