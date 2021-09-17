@@ -10,6 +10,7 @@ publish(
 			name: 'IlluzionzDev', // update to use your name
 			email: 'jaminstratford@gmail.com' // Update to use your email
 		},
+        message: 'Deployment',
 		dotfiles: true
 	},
 	() => {

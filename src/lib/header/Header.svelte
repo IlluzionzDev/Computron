@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import background from './background.svg';
 </script>
 
@@ -8,11 +9,11 @@
 		<nav>
 			<ul>
 				<li class="brand">
-					<h1><a href="/">Computron</a></h1>
+					<h1><a href="{base}/">Computron</a></h1>
 				</li>
-				<li><a href="/">Home</a></li>
-				<li><a href="/software">Software</a></li>
-				<li><a href="/tutorials">Tutorials</a></li>
+				<li><a href="{base}/">Home</a></li>
+				<li><a href="{base}/software">Software</a></li>
+				<li><a href="{base}/tutorials">Tutorials</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -66,7 +67,7 @@
 					}
 				}
 
-				// Make first element on left and align to edges of container
+				// Make first element on left and align to edges of
 				&:first-child {
 					margin-right: auto;
 					padding-left: 0;

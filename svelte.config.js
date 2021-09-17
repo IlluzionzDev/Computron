@@ -14,8 +14,12 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: null
-		})
+		}),
+		paths: {
+			base: '/Computron',
+		}
 	}
 };
 
 export default config;
+ 
