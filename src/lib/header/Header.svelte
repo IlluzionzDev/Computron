@@ -66,9 +66,14 @@
 					}
 				}
 
-				// Position first element on left
+				// Make first element on left and align to edges of container
 				&:first-child {
 					margin-right: auto;
+					padding-left: 0;
+				}
+
+				&:last-child {
+					padding-right: 0;
 				}
 			}
 		}
