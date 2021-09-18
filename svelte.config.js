@@ -15,9 +15,9 @@ const config = {
 			assets: 'build',
 			fallback: null
 		}),
-		// paths: {
-		// 	base: '/Computron',
-		// }
+		paths: {
+			base: '/Computron',
+		}
 	}
 };
 
