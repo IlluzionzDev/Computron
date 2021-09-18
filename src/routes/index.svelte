@@ -3,6 +3,9 @@
 	import chrome from '../img/icon/chrome.svg';
 	import google_docs from '../img/icon/google-docs.svg';
 	import headphones from '../img/icon/headphones.svg';
+	import support from '../img/icon/support.svg';
+	import windows from '../img/icon/windows.svg';
+	import convert from '../img/icon/convert.svg';
 </script>
 
 <div class="container">
@@ -17,26 +20,54 @@
 			<button class="btn btn-outline">FIND TUTORIALS</button>
 		</div>
 	</Hero>
-	<div class="section-card">
-		<h1>Recommended Software</h1>
-		<div class="overview-row">
-			<div class="overview-section">
-				<img src="{chrome}" alt="">
-				<h1>Browsers</h1>
-				<p>Get the best browser to easily navigate the web and download anything else you may need</p>
+	<!-- Contain the section cards -->
+	<div>
+		<div class="section-card">
+			<h1>Recommended Software</h1>
+			<div class="overview-row">
+				<div class="overview-section">
+					<img src={chrome} alt="Chrome" />
+					<h1>Browsers</h1>
+					<p>
+						Get the best browser to easily navigate the web and download anything else you may need
+					</p>
+				</div>
+				<div class="overview-section">
+					<img src={google_docs} alt="Google Docs" />
+					<h1>Documents</h1>
+					<p>Software to help you edit all kinds of documents and maximise efficiency above all</p>
+				</div>
+				<div class="overview-section">
+					<img src={headphones} alt="Headphones" />
+					<h1>Audio / Video</h1>
+					<p>Easy to use software for short edits of videos or tampering with some audio files</p>
+				</div>
 			</div>
-			<div class="overview-section">
-				<img src="{google_docs}" alt="">
-				<h1>Documents</h1>
-				<p>Software to help you edit all kinds of documents and maximise efficiency above all</p>
-			</div>
-			<div class="overview-section">
-				<img src="{headphones}" alt="">
-				<h1>Audio / Video</h1>
-				<p>Easy to use software for short edits of videos or tampering with some audio files</p>
-			</div>
+			<button class="btn btn-solid">MORE INFO</button>
 		</div>
-		<button class="btn btn-solid">MORE INFO</button>
+		<div class="section-card">
+			<h1>Tutorials</h1>
+			<div class="overview-row">
+				<div class="overview-section">
+					<img src={support} alt="" />
+					<h1>Support</h1>
+					<p>
+						Get the support you need such as remote support or assistance setting up things
+					</p>
+				</div>
+				<div class="overview-section">
+					<img src={windows} alt="" />
+					<h1>Operating Systems</h1>
+					<p>Help with setting up different operating systems and some handy configuration</p>
+				</div>
+				<div class="overview-section">
+					<img src={convert} alt="" />
+					<h1>Converting</h1>
+					<p>Easy little tutorials to convert certain files to another or quickly create certain files</p>
+				</div>
+			</div>
+			<button class="btn btn-solid">MORE INFO</button>
+		</div>
 	</div>
 </div>
 
@@ -58,7 +89,14 @@
 		position: relative;
 		padding: 40px 25px;
 
+		margin-bottom: 100px;
+
 		border-radius: 4px;
+
+		// Align second card to the right
+		&:nth-child(2) {
+			margin-left: auto;
+		}
 
 		& .overview-row {
 			display: flex;
@@ -77,8 +115,7 @@
 
 				// Icon
 				img {
-					fill: $secondary-blue;
-					height: 30px
+					height: 30px;
 				}
 
 				h1 {
