@@ -9,7 +9,7 @@
 		<nav>
 			<ul>
 				<li class="brand">
-					<h1><a href="{base}/">Computron</a></h1>
+					<h1>Computron</h1>
 				</li>
 				<li><a href="{base}/">Home</a></li>
 				<li><a href="{base}/software">Software</a></li>

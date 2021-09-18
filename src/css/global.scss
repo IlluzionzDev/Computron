@@ -84,11 +84,11 @@ button {
 
         &.btn-outline {
             background-color: transparent;
-            border: solid 0.15rem $primary-blue;
+            border: solid 0.1rem $primary-blue;
 
             &:hover {
                 background-color: $secondary-blue;
-                border: solid 0.15rem $secondary-blue;
+                border: solid 0.1rem $secondary-blue;
             }
         }
     }
