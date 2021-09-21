@@ -48,10 +48,7 @@ body {
     display: flex;
     flex-direction: row;
 
-    // Buttons in the row should be spaced out
-    button {
-        margin-right: 30px;
-    }
+    gap: 0 30px;
 }
 
 // Buttons
