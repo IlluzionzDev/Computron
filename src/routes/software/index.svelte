@@ -18,7 +18,7 @@
 			running nice and fast. Find all the downloads links and information you need.
 		</p>
 		<!-- Buttons for categories -->
-		<div class="button-row">
+		<div class="download-button-row">
 			{#await downloads then downloads}
 				{#each downloads as category}
 					<button class="btn btn-solid">{category.title}</button>
@@ -59,11 +59,16 @@
 <style lang="scss">
 	@import '../../css/colors.scss';
 
-	.button-row {
-		button {
-			flex: 1;
-			flex-basis: 30%;
-		}
+	.download-button-row {
+		padding: 30px 0;
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		margin-left: auto;
+		margin-right: auto;
+		gap: 10px 10px;
 	}
 
 	// Section header
