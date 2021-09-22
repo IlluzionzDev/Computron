@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Hero from '$lib/hero/Hero.svelte';
+import { identity } from 'svelte/internal';
 	import downloadsJson from './downloads.json';
 
 	// Async function so loads as rest of page loads
@@ -8,6 +9,8 @@
 	}
 
 	const downloads = getCategories();
+
+	$: selected_category = 'all';
 </script>
 
 <div class="container">
@@ -19,9 +22,10 @@
 		</p>
 		<!-- Buttons for categories -->
 		<div class="download-button-row">
+			<button class="btn btn-solid" class:selected="{selected_category == 'all'}" on:click={() => (selected_category = 'all')}>All</button>
 			{#await downloads then downloads}
 				{#each downloads as category}
-					<button class="btn btn-solid">{category.title}</button>
+					<button class="btn btn-solid" class:selected="{selected_category == category.id.toString()}" on:click={() => (selected_category = category.id.toString())}>{category.title}</button>
 				{/each}
 			{:catch error}
 				<p>{error.message}</p>
@@ -38,18 +42,18 @@
 		</div>
 	{:then downloads}
 		{#each downloads as category}
-			<h1 class="section-header">{category.title}</h1>
-			<div class="cards">
-				{#each category.children as download}
-					<div class="card">
-						<h1>{download.name}</h1>
-						<p>{download.description}</p>
-						<a target="_blank" href={download.link}
-							><button class="btn btn-solid">DOWNLOAD</button></a
-						>
-					</div>
-				{/each}
-			</div>
+			{#if category.id.toString() == selected_category || selected_category == 'all'}
+				<h1 class="section-header">{category.title}</h1>
+				<div class="cards">
+					{#each category.children as download}
+						<div class="card">
+							<h1>{download.name}</h1>
+							<p>{download.description}</p>
+							<a target="_blank" href={download.link}><button class="btn btn-solid">DOWNLOAD</button></a>
+						</div>
+					{/each}
+				</div>
+			{/if}
 		{/each}
 	{:catch error}
 		<p>{error.message}</p>
@@ -66,8 +70,7 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 
-		margin-left: auto;
-		margin-right: auto;
+		width: 90%;
 		gap: 10px 10px;
 	}
 
@@ -119,7 +122,7 @@
 			}
 
 			&:hover {
-				flex-basis: 25%;
+				flex-grow: 1.2;
 			}
 		}
 	}

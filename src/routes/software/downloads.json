@@ -6,22 +6,22 @@
 			"children": [
 				{
 					"name": "Windows 10",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "A very popular and user friendly operating system. Able to run nearly any task you want",
 					"link": "https://www.microsoft.com/en-us/software-download/windows10"
 				},
 				{
 					"name": "Ubuntu Desktop",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "A great starting operating system for people starting with linux. Runs with the full linux kernel with a friendly user interface",
 					"link": "https://ubuntu.com/download/desktop"
 				},
 				{
 					"name": "Ubuntu Server",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "A good linux distro for running servers on. Comes with all the features of Ubuntu but is more barebones and only contains a command line interface",
 					"link": "https://ubuntu.com/download/server"
 				},
 				{
 					"name": "Raspberry PI OS",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.raspberrypi.org/downloads/raspbian/"
 				}
 			]
@@ -32,17 +32,17 @@
 			"children": [
 				{
 					"name": "Chrome",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.google.com/chrome/"
 				},
 				{
 					"name": "Firefox",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.mozilla.org/en-US/firefox/new/"
 				},
 				{
 					"name": "Opera",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.opera.com/"
 				}
 			]
@@ -53,27 +53,27 @@
 			"children": [
 				{
 					"name": "Gimp",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.gimp.org/downloads/"
 				},
 				{
 					"name": "InfraRecorder",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "http://infrarecorder.org/?page_id=5"
 				},
 				{
 					"name": "VLC",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.videolan.org/vlc/"
 				},
 				{
 					"name": "Audacity",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.audacityteam.org/"
 				},
 				{
 					"name": "WAX",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.debugmode.com/wax/"
 				}
 			]
@@ -84,12 +84,12 @@
 			"children": [
 				{
 					"name": "7-zip",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.7-zip.org/download.html"
 				},
 				{
 					"name": "WinRAR",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.win-rar.com/predownload.html?&L=0"
 				}
 			]
@@ -100,17 +100,17 @@
 			"children": [
 				{
 					"name": "Notepad++",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://notepad-plus-plus.org/downloads/"
 				},
 				{
 					"name": "Ketarin",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "http://ketarin.canneverbe.com/"
 				},
 				{
 					"name": "Open Office",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.openoffice.org/download/index.html"
 				}
 			]
@@ -121,22 +121,22 @@
 			"children": [
 				{
 					"name": "FileZilla",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://filezilla-project.org/"
 				},
 				{
 					"name": "Defragler",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.ccleaner.com/defraggler/download"
 				},
 				{
 					"name": "CCleaner",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.ccleaner.com/ccleaner/download"
 				},
 				{
 					"name": "Create Synchronicity",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "http://synchronicity.sourceforge.net/"
 				}
 			]
@@ -147,12 +147,12 @@
 			"children": [
 				{
 					"name": "Bullzip PDF",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.bullzip.com/products/pdf/download.php"
 				},
 				{
 					"name": "Foxit Reader",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.foxitsoftware.com/pdf-reader/"
 				}
 			]
@@ -163,12 +163,12 @@
 			"children": [
 				{
 					"name": "Advast Antivirus",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.avast.com/en-nz/index"
 				},
 				{
 					"name": "Malwarebytes",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.malwarebytes.com/"
 				}
 			]
@@ -179,7 +179,7 @@
 			"children": [
 				{
 					"name": "Team Viewer",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "https://www.teamviewer.com/en/"
 				}
 			]
@@ -190,10 +190,10 @@
 			"children": [
 				{
 					"name": "Classic Shell",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam.",
+					"description": "Test Description",
 					"link": "http://www.classicshell.net/"
 				}
 			]
 		}
-    ]
+	]
 }

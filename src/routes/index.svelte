@@ -28,9 +28,7 @@
 				<div class="overview-section">
 					<img src={chrome} alt="Chrome" />
 					<h1>Browsers</h1>
-					<p>
-						Get the best browser to easily navigate the web and download anything else you may need
-					</p>
+					<p>Get the best browser to easily navigate the web and download anything else you may need</p>
 				</div>
 				<div class="overview-section">
 					<img src={google_docs} alt="Google Docs" />
@@ -51,9 +49,7 @@
 				<div class="overview-section">
 					<img src={support} alt="" />
 					<h1>Support</h1>
-					<p>
-						Get the support you need such as remote support or assistance setting up things
-					</p>
+					<p>Get the support you need such as remote support or assistance setting up things</p>
 				</div>
 				<div class="overview-section">
 					<img src={windows} alt="" />
