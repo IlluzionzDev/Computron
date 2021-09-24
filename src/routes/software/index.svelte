@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Hero from '$lib/hero/Hero.svelte';
-import { identity } from 'svelte/internal';
 	import downloadsJson from './downloads.json';
 
 	// Async function so loads as rest of page loads
@@ -77,53 +76,5 @@ import { identity } from 'svelte/internal';
 	// Section header
 	.section-header {
 		padding: 40px 0;
-	}
-
-	.cards {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-
-		padding-bottom: 100px;
-
-		gap: 26px 30px;
-
-		& .card {
-			transition: all 0.5s;
-
-			flex: 1;
-			flex-basis: 20%;
-
-			display: flex;
-			flex-direction: column;
-
-			background-color: $white;
-			color: $secondary-blue;
-
-			border-radius: 4px;
-			padding: 20px 30px;
-
-			position: relative;
-			align-items: center;
-			align-content: center;
-			justify-content: center;
-			text-align: center;
-
-			h1 {
-				font-size: 22px;
-				font-weight: bold;
-			}
-
-			p {
-				padding: 20px 0px;
-				font-family: Mulish;
-				font-size: 14px;
-				width: 90%;
-			}
-
-			&:hover {
-				flex-grow: 1.2;
-			}
-		}
 	}
 </style>

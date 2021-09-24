@@ -22,6 +22,7 @@
 		:global(p) {
 			font-size: 18px;
             font-family: Mulish;
+			width: 50%;
 		}
 	}
 </style>
