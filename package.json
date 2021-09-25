@@ -22,6 +22,8 @@
 		"eslint-config-prettier": "^8.1.0",
 		"eslint-plugin-svelte3": "^3.2.0",
 		"gh-pages": "^3.2.3",
+		"include-media": "^1.4.10",
+		"mdsvex": "^0.9.8",
 		"prettier": "~2.2.1",
 		"prettier-plugin-svelte": "^2.2.0",
 		"sass": "^1.39.0",
@@ -30,13 +32,17 @@
 		"svelte-check": "^2.0.0",
 		"svelte-preprocess": "^4.0.0",
 		"tslib": "^2.0.0",
-		"typescript": "^4.0.0",
-		"mdsvex": "^0.9.8"
+		"typescript": "^4.0.0"
 	},
 	"type": "module",
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.2.2",
 		"@lukeed/uuid": "^2.0.0",
 		"cookie": "^0.4.1"
+	},
+	"sass": {
+		"includePaths": [
+			"./node_modules"
+		]
 	}
 }

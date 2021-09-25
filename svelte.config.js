@@ -8,17 +8,14 @@ const dirname = path.resolve(fileURLToPath(import.meta.url), '../');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-    extensions: [".svelte", ".md"],
+    extensions: ['.svelte', '.md'],
 
-    // Consult https://github.com/sveltejs/svelte-preprocess
-    // for more information about preprocessors
     preprocess: [
 		preprocess(),
 		mdsvex({
-			extensions: [".md"],
-			layout: {
-				mds: path.join(dirname, "./src/routes/tutorials/_layout.svelte")
-			}
+			extensions: ['.md'],
+			// The layout for our tutorial files
+			layout: path.join(dirname, "./src/routes/tutorials/_layout.svelte")
 		})
 	],
 

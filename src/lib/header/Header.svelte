@@ -53,7 +53,7 @@
 
 			li {
 				list-style: none;
-				font-size: 18px;
+				font-size: 1.125rem;
 				position: relative;
 				padding: 1.5rem 1rem;
 

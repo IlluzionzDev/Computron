@@ -16,7 +16,7 @@
 	<Hero>
 		<h1>Recommended Software.</h1>
 		<p>
-			Below are some the best recommended software to get your computer up and <br />
+			Below are some the best recommended software to get your computer up and
 			running nice and fast. Find all the downloads links and information you need.
 		</p>
 		<!-- Buttons for categories -->

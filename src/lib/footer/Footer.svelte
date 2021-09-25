@@ -66,7 +66,7 @@
 			position: relative;
 
 			font-family: Mulish;
-			font-size: 16px;
+			font-size: 1rem;
 
             // Each part of the footer content
 			& .footer-content {

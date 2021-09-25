@@ -70,6 +70,7 @@
 <!-- Css specific to this component -->
 <style lang="scss">
 	@import '../css/colors.scss';
+	@import '../css/include-media.scss';
 
 	.section-card {
 		width: 80%;
@@ -77,7 +78,7 @@
 		flex-direction: column;
 
 		color: $secondary-blue;
-		background-color: $white;
+		background-color: $secondary-white;
 
 		align-items: center;
 		justify-content: center;
@@ -88,6 +89,10 @@
 		margin-bottom: 100px;
 
 		border-radius: 4px;
+
+		@include media("<desktop") {
+			width: 100%;
+		}
 
 		// Align second card to the right
 		&:nth-child(2) {
@@ -106,7 +111,8 @@
 				flex-direction: column;
 
 				align-items: center;
-				justify-content: center;
+				// Align titles at top of box
+				justify-content: top;
 				position: relative;
 
 				// Icon
@@ -115,7 +121,7 @@
 				}
 
 				h1 {
-					font-size: 18px;
+					font-size: 1.125rem;
 					font-weight: bold;
 					color: $primary-blue;
 					text-transform: uppercase;
@@ -125,13 +131,13 @@
 				p {
 					width: 80%;
 					font-family: Mulish;
-					font-size: 16px;
+					font-size: 1rem;
 				}
 			}
 		}
 
 		h1 {
-			font-size: 36px;
+			font-size: 2.25rem;
 			font-weight: bold;
 		}
 	}

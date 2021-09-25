@@ -14,15 +14,15 @@
 		height: 50vh;
 
 		:global(h1) {
-			font-size: 48px;
+			font-size: 3rem;
 			font-weight: bold;
 			padding-bottom: 15px;
 		}
 
 		:global(p) {
-			font-size: 18px;
+			font-size: 1.125rem;
             font-family: Mulish;
-			width: 50%;
+			width: 90%;
 		}
 	}
 </style>
