@@ -16,8 +16,8 @@
 			recommended software along with tutorials for setup and recommended settings.
 		</p>
 		<div class="button-row">
-			<button class="btn btn-solid">GET STARTED</button>
-			<button class="btn btn-outline">FIND TUTORIALS</button>
+			<a href="/software"><button class="btn btn-solid">GET STARTED</button></a>
+			<a href="/tutorials"><button class="btn btn-outline">FIND TUTORIALS</button></a>
 		</div>
 	</Hero>
 	<!-- Contain the section cards -->
@@ -41,7 +41,7 @@
 					<p>Easy to use software for short edits of videos or tampering with some audio files</p>
 				</div>
 			</div>
-			<button class="btn btn-solid">MORE INFO</button>
+			<a href="/software"><button class="btn btn-solid">MORE INFO</button></a>
 		</div>
 		<div class="section-card">
 			<h1>Tutorials</h1>
@@ -62,7 +62,7 @@
 					<p>Easy little tutorials to convert certain files to another or quickly create certain files</p>
 				</div>
 			</div>
-			<button class="btn btn-solid">MORE INFO</button>
+			<a href="/tutorials"><button class="btn btn-solid">MORE INFO</button></a>
 		</div>
 	</div>
 </div>

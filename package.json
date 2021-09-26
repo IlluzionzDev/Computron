@@ -14,7 +14,6 @@
 	"devDependencies": {
 		"@rollup/plugin-json": "^4.1.0",
 		"@sveltejs/adapter-vercel": "^1.0.0-next.18",
-		"@sveltejs/adapter-static": "^1.0.0-next.19",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.4.0",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",

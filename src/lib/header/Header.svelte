@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import background from './background.svg';
 </script>
 
@@ -11,9 +10,9 @@
 				<li class="brand">
 					<h1>Computron</h1>
 				</li>
-				<li><a href="{base}/">Home</a></li>
-				<li><a href="{base}/software">Software</a></li>
-				<li><a href="{base}/tutorials">Tutorials</a></li>
+				<li><a href="/">Home</a></li>
+				<li><a href="/software">Software</a></li>
+				<li><a href="/tutorials">Tutorials</a></li>
 			</ul>
 		</nav>
 	</div>
