@@ -1,5 +1,6 @@
 <script lang="ts">
 	import background from './background.svg';
+	import logo from '../../img/logo.svg';
 </script>
 
 <header>
@@ -8,7 +9,7 @@
 		<nav>
 			<ul>
 				<li class="brand">
-					<h1>Computron</h1>
+					<img src={logo} alt="Logo"/>
 				</li>
 				<li><a href="/">Home</a></li>
 				<li><a href="/software">Software</a></li>
@@ -37,11 +38,6 @@
 		z-index: -999;
 	}
 
-	// Branding on nav
-	.brand {
-		font-weight: bold;
-	}
-
 	nav {
 		ul {
 			display: flex;
@@ -63,6 +59,16 @@
 
 				@include media('<455px') {
 					font-size: 1rem;
+				}
+
+				// Branding on nav
+				&.brand {
+					display: flex;
+					align-items: center;
+
+					img {
+						height: 1.1rem;
+					}
 				}
 
 				a {

@@ -12,6 +12,10 @@
 	$: selected_category = 'all';
 </script>
 
+<svelte:head>
+	<title>Computron - Software</title>
+</svelte:head>
+
 <div class="container">
 	<Hero>
 		<h1>Recommended Software.</h1>

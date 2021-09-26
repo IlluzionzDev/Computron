@@ -1,5 +1,6 @@
 <script lang="ts">
 	import background from './bottom-waves-2.svg';
+	import logo from '../../img/logo.svg';
 </script>
 
 <footer>
@@ -16,7 +17,7 @@
 				</div>
 				<div class="footer-section">
                     <div class="footer-content-2">
-						<h1>Computron</h1>
+						<img src="{logo}" alt="Logo">
 					</div>
 				</div>
 				<div class="footer-section">
@@ -78,6 +79,15 @@
 				&-1 {
                     text-align: left;
 					margin-right: auto;
+				}
+
+				&-2 {
+					display: flex;
+					align-items: center;
+
+					img {
+						height: 1.5rem;
+					}
 				}
 
 				&-3 {

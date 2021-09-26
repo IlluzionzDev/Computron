@@ -8,6 +8,10 @@
 	import convert from '../img/icon/convert.svg';
 </script>
 
+<svelte:head>
+	<title>Computron - Home</title>
+</svelte:head>
+
 <div class="container">
 	<Hero>
 		<h1>Quick and Efficient Setup.</h1>

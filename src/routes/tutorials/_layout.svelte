@@ -6,6 +6,10 @@
 	export let description;
 </script>
 
+<svelte:head>
+	<title>Computron - {title}</title>
+</svelte:head>
+
 <!-- Route all requests to /tutorials/{id} -->
 <div class="container">
 	<Hero>

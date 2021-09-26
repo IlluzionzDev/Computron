@@ -10,11 +10,14 @@
 
 <script>
 	import Hero from '$lib/hero/Hero.svelte';
-	import { base } from '$app/paths';
 
 	// Import tutorials JSON
 	export let tutorials;
 </script>
+
+<svelte:head>
+	<title>Computron - Tutorials</title>
+</svelte:head>
 
 <div class="container">
 	<Hero>
@@ -31,7 +34,7 @@
 			<div class="card">
 				<h1>{tutorial.title}</h1>
 				<p>{tutorial.description}</p>
-				<a href="{base}/tutorials/{tutorial.slug}"><button class="btn btn-solid">VIEW</button></a>
+				<a href="/tutorials/{tutorial.slug}"><button class="btn btn-solid">VIEW</button></a>
 			</div>
 		{/each}
 	</div>
