@@ -21,6 +21,7 @@
 <!-- Css specific to this component -->
 <style lang="scss">
 	@import '../../css/colors.scss';
+	@import '../../css/include-media.scss';
 
 	header {
 		display: flex;
@@ -50,11 +51,19 @@
 			margin: 0;
 			padding: 0;
 
+			@include media('<455px') {
+				gap: 1rem;
+			}
+
 			li {
 				list-style: none;
 				font-size: 1.125rem;
 				position: relative;
 				padding: 1.5rem 1rem;
+
+				@include media('<455px') {
+					font-size: 1rem;
+				}
 
 				a {
 					color: $white;

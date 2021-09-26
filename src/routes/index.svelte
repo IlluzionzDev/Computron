@@ -11,10 +11,7 @@
 <div class="container">
 	<Hero>
 		<h1>Quick and Efficient Setup.</h1>
-		<p>
-			Computron allows for quick and easy setup of new computers with the best
-			recommended software along with tutorials for setup and recommended settings.
-		</p>
+		<p>Computron allows for quick and easy setup of new computers with the best recommended software along with tutorials for setup and recommended settings.</p>
 		<div class="button-row">
 			<a href="/software"><button class="btn btn-solid">GET STARTED</button></a>
 			<a href="/tutorials"><button class="btn btn-outline">FIND TUTORIALS</button></a>
@@ -90,7 +87,7 @@
 
 		border-radius: 4px;
 
-		@include media("<desktop") {
+		@include media('<desktop') {
 			width: 100%;
 		}
 
@@ -103,6 +100,11 @@
 			display: flex;
 			flex-direction: row;
 			padding: 50px;
+
+			@include media('<455px') {
+				flex-direction: column;
+				gap: 40px 0px;
+			}
 
 			& .overview-section {
 				display: flex;

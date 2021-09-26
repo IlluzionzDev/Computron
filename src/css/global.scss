@@ -36,6 +36,10 @@ html {
 	@include media("<desktop") {
 		font-size: 13px;
 	}
+
+	@include media("<455px") {
+		font-size: 10px;
+	}
 }
 
 // Our main background colour
@@ -73,6 +77,11 @@ body {
 	flex-direction: row;
 
 	gap: 0 30px;
+
+	@include media("<455px") {
+		flex-direction: column;
+		gap: 10px 0;
+	}
 }
 
 // Buttons
@@ -96,6 +105,10 @@ button {
 
 		transition: all 0.5s;
 		box-shadow: 0px 3px 6px 0px rgba($color: #000000, $alpha: 0.16);
+
+		@include media("<455px") {
+			width: 100%;
+		}
 
 		// Button with solid background
 		&.btn-solid {
@@ -142,6 +155,10 @@ button {
 
     gap: 26px 30px;
 
+	@include media("<455px") {
+		padding-bottom: 50px;
+	}
+
     & .card {
         transition: all 0.5s;
 
@@ -162,6 +179,10 @@ button {
         align-content: center;
         justify-content: center;
         text-align: center;
+
+		@include media("<455px") {
+			flex-basis: 100%;
+		}
 
         h1 {
             font-size: 1.375rem;

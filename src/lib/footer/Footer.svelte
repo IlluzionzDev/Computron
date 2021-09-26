@@ -32,6 +32,7 @@
 <!-- Css specific to this component -->
 <style lang="scss">
 	@import '../../css/colors.scss';
+	@import '../../css/include-media.scss';
 
 	footer {
 		display: flex;
@@ -67,6 +68,10 @@
 
 			font-family: Mulish;
 			font-size: 1rem;
+
+			@include media('<455px') {
+				font-size: 0.7rem;
+			}
 
             // Each part of the footer content
 			& .footer-content {

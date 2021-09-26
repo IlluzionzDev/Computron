@@ -15,16 +15,13 @@
 <div class="container">
 	<Hero>
 		<h1>Recommended Software.</h1>
-		<p>
-			Below are some the best recommended software to get your computer up and
-			running nice and fast. Find all the downloads links and information you need.
-		</p>
+		<p>Below are some the best recommended software to get your computer up and running nice and fast. Find all the downloads links and information you need.</p>
 		<!-- Buttons for categories -->
 		<div class="download-button-row">
-			<button class="btn btn-solid" class:selected="{selected_category == 'all'}" on:click={() => (selected_category = 'all')}>All</button>
+			<button class="btn btn-solid" class:selected={selected_category == 'all'} on:click={() => (selected_category = 'all')}>All</button>
 			{#await downloads then downloads}
 				{#each downloads as category}
-					<button class="btn btn-solid" class:selected="{selected_category == category.id.toString()}" on:click={() => (selected_category = category.id.toString())}>{category.title}</button>
+					<button class="btn btn-solid" class:selected={selected_category == category.id.toString()} on:click={() => (selected_category = category.id.toString())}>{category.title}</button>
 				{/each}
 			{:catch error}
 				<p>{error.message}</p>
@@ -61,6 +58,7 @@
 
 <style lang="scss">
 	@import '../../css/colors.scss';
+	@import '../../css/include-media.scss';
 
 	.download-button-row {
 		padding: 30px 0;
@@ -71,10 +69,27 @@
 
 		width: 90%;
 		gap: 10px 10px;
+
+		@include media('<455px') {
+			width: 100%;
+			padding-bottom: 0;
+		}
+	}
+
+	button {
+		&.btn {
+			@include media('<455px') {
+				width: auto;
+			}
+		}
 	}
 
 	// Section header
 	.section-header {
 		padding: 40px 0;
+
+		@include media('<455px') {
+			text-align: center;
+		}
 	}
 </style>
