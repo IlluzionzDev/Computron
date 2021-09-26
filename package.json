@@ -13,6 +13,7 @@
 	},
 	"devDependencies": {
 		"@rollup/plugin-json": "^4.1.0",
+		"@sveltejs/adapter-vercel": "^1.0.0-next.18",
 		"@sveltejs/adapter-static": "^1.0.0-next.19",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.4.0",
@@ -39,10 +40,5 @@
 		"@fontsource/fira-mono": "^4.2.2",
 		"@lukeed/uuid": "^2.0.0",
 		"cookie": "^0.4.1"
-	},
-	"sass": {
-		"includePaths": [
-			"./node_modules"
-		]
 	}
 }
