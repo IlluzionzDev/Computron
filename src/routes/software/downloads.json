@@ -21,7 +21,7 @@
 				},
 				{
 					"name": "Raspberry PI OS",
-					"description": "Test Description",
+					"description": "The operating system required to run a Raspberry Pi. Has lots of different options including those with an interface and those without",
 					"link": "https://www.raspberrypi.org/downloads/raspbian/"
 				}
 			]
@@ -32,17 +32,17 @@
 			"children": [
 				{
 					"name": "Chrome",
-					"description": "Test Description",
+					"description": "A versatile and useful browser for everyday browsing. Also contains tools for developing websites and analyzing web code",
 					"link": "https://www.google.com/chrome/"
 				},
 				{
 					"name": "Firefox",
-					"description": "Test Description",
+					"description": "A fast and secure browser that just focuses on lightning fast web browsing. Great for those who want a secure and fast experience",
 					"link": "https://www.mozilla.org/en-US/firefox/new/"
 				},
 				{
 					"name": "Opera",
-					"description": "Test Description",
+					"description": "A browser focused on the end user expeirence. Includes tools like a built-in VPN, integrate messaging, and a expansive customisation system",
 					"link": "https://www.opera.com/"
 				}
 			]
@@ -53,28 +53,18 @@
 			"children": [
 				{
 					"name": "Gimp",
-					"description": "Test Description",
+					"description": "A free photo editing software alternative to Photoshop. Covers most of the basic features you will need",
 					"link": "https://www.gimp.org/downloads/"
 				},
 				{
-					"name": "InfraRecorder",
-					"description": "Test Description",
-					"link": "http://infrarecorder.org/?page_id=5"
-				},
-				{
 					"name": "VLC",
-					"description": "Test Description",
+					"description": "Video Lan Client is an easy way to access media over a network. Allowing you to watch videos and photos across LAN",
 					"link": "https://www.videolan.org/vlc/"
 				},
 				{
 					"name": "Audacity",
-					"description": "Test Description",
+					"description": "A free and open source audio editor. Makes it really easy to tweak audio files as needed.",
 					"link": "https://www.audacityteam.org/"
-				},
-				{
-					"name": "WAX",
-					"description": "Test Description",
-					"link": "https://www.debugmode.com/wax/"
 				}
 			]
 		},
@@ -84,12 +74,12 @@
 			"children": [
 				{
 					"name": "7-zip",
-					"description": "Test Description",
+					"description": "A very popular and free program for compression. Easily create zip files and archives",
 					"link": "https://www.7-zip.org/download.html"
 				},
 				{
 					"name": "WinRAR",
-					"description": "Test Description",
+					"description": "A fast and easy to use program to compress files and make archives",
 					"link": "https://www.win-rar.com/predownload.html?&L=0"
 				}
 			]
@@ -100,17 +90,12 @@
 			"children": [
 				{
 					"name": "Notepad++",
-					"description": "Test Description",
+					"description": "A free text editor that interprets many languages and makes it easy to quickly edit text files",
 					"link": "https://notepad-plus-plus.org/downloads/"
 				},
 				{
-					"name": "Ketarin",
-					"description": "Test Description",
-					"link": "http://ketarin.canneverbe.com/"
-				},
-				{
 					"name": "Open Office",
-					"description": "Test Description",
+					"description": "A free to use application to create lots of different documents like spreadsheets and word documents",
 					"link": "https://www.openoffice.org/download/index.html"
 				}
 			]
@@ -121,23 +106,13 @@
 			"children": [
 				{
 					"name": "FileZilla",
-					"description": "Test Description",
+					"description": "An easy to use application to manage files over a network. Supports protocols like FTP and SFTP and includes easy to setup authentication",
 					"link": "https://filezilla-project.org/"
 				},
 				{
-					"name": "Defragler",
-					"description": "Test Description",
-					"link": "https://www.ccleaner.com/defraggler/download"
-				},
-				{
 					"name": "CCleaner",
-					"description": "Test Description",
+					"description": "An application to quickly and easily cleanup your computer of unwanted and unnecessary files",
 					"link": "https://www.ccleaner.com/ccleaner/download"
-				},
-				{
-					"name": "Create Synchronicity",
-					"description": "Test Description",
-					"link": "http://synchronicity.sourceforge.net/"
 				}
 			]
 		},
@@ -146,14 +121,9 @@
 			"title": "PDF Viewing / Editing",
 			"children": [
 				{
-					"name": "Bullzip PDF",
-					"description": "Test Description",
-					"link": "https://www.bullzip.com/products/pdf/download.php"
-				},
-				{
-					"name": "Foxit Reader",
-					"description": "Test Description",
-					"link": "https://www.foxitsoftware.com/pdf-reader/"
+					"name": "Adobe Acrobat",
+					"description": "A free program to easily view, comment, and print PDF documents. Also has a pro version which allows you to edit them",
+					"link": "https://get.adobe.com/reader/"
 				}
 			]
 		},
@@ -163,12 +133,12 @@
 			"children": [
 				{
 					"name": "Advast Antivirus",
-					"description": "Test Description",
+					"description": "A free antivirus to keep you protected from threats and malicious activity. Includes VPNs and strong privacy",
 					"link": "https://www.avast.com/en-nz/index"
 				},
 				{
 					"name": "Malwarebytes",
-					"description": "Test Description",
+					"description": "A great antivirus to protect computers on a network. Includes plans for protection on a range of devices to keep you protected no matter what device you use",
 					"link": "https://www.malwarebytes.com/"
 				}
 			]
@@ -179,19 +149,8 @@
 			"children": [
 				{
 					"name": "Team Viewer",
-					"description": "Test Description",
+					"description": "A free program to offer remote support. Allows remote connection to other computers to help set up things and screen share",
 					"link": "https://www.teamviewer.com/en/"
-				}
-			]
-		},
-		{
-			"id": "other",
-			"title": "Other",
-			"children": [
-				{
-					"name": "Classic Shell",
-					"description": "Test Description",
-					"link": "http://www.classicshell.net/"
 				}
 			]
 		}
