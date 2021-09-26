@@ -1,4 +1,10 @@
-<div class="hero">
+<script lang="ts">
+	// If to center align this hero by default
+	export let center: boolean = false;
+</script>
+
+<!-- Apply center class if center hero is enabled -->
+<div class="hero {center ? 'centered' : ''}">
 	<slot />
 </div>
 
@@ -35,5 +41,10 @@
 				width: 100%;
 			}
 		}
+	}
+
+	.centered {
+		align-items: center;
+		text-align: center;
 	}
 </style>
