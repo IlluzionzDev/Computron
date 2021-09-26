@@ -29,15 +29,15 @@ html {
 	// Default font size
 	font-size: 16px;
 
-	@include media("<1700px") {
+	@include media('<1700px') {
 		font-size: 14px;
 	}
 
-	@include media("<desktop") {
+	@include media('<desktop') {
 		font-size: 13px;
 	}
 
-	@include media("<455px") {
+	@include media('<455px') {
 		font-size: 10px;
 	}
 }
@@ -60,16 +60,14 @@ body {
 	width: 60vw;
 	margin: 0 auto;
 
-	@include media("<1700px") {
+	@include media('<1700px') {
 		width: 80vw;
 	}
 
-	@include media("<desktop") {
+	@include media('<desktop') {
 		width: 90vw;
 	}
 }
-
-
 
 .button-row {
 	padding: 30px 0;
@@ -78,7 +76,7 @@ body {
 
 	gap: 0 30px;
 
-	@include media("<455px") {
+	@include media('<455px') {
 		flex-direction: column;
 		gap: 10px 0;
 	}
@@ -106,7 +104,7 @@ button {
 		transition: all 0.5s;
 		box-shadow: 0px 3px 6px 0px rgba($color: #000000, $alpha: 0.16);
 
-		@include media("<455px") {
+		@include media('<455px') {
 			width: 100%;
 		}
 
@@ -120,11 +118,11 @@ button {
 				background-color: $secondary-blue;
 			}
 
-            &.selected {
-                background-color: $secondary-blue;
-                outline: none;
-                border: none;
-            }
+			&.selected {
+				background-color: $secondary-blue;
+				outline: none;
+				border: none;
+			}
 		}
 
 		&.btn-outline {
@@ -136,70 +134,100 @@ button {
 				border: solid 1.5px $secondary-blue;
 			}
 
-            &.selected {
-                background-color: $secondary-blue;
-                outline: none;
-                border: none;
-            }
+			&.selected {
+				background-color: $secondary-blue;
+				outline: none;
+				border: none;
+			}
 		}
 	}
 }
 
 // Custom card layouts
 .cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 
-    padding-bottom: 100px;
+	padding-bottom: 100px;
 
-    gap: 26px 30px;
+	gap: 26px 30px;
 
-	@include media("<455px") {
+	@include media('<455px') {
 		padding-bottom: 50px;
 	}
 
-    & .card {
-        transition: all 0.5s;
+	& .card {
+		transition: all 0.5s;
 
-        flex: 1;
-        flex-basis: 20%;
+		flex: 1;
+		flex-basis: 20%;
 
-        display: flex;
-        flex-direction: column;
+		display: flex;
+		flex-direction: column;
 
-        background-color: $secondary-white;
-        color: $secondary-blue;
+		background-color: $secondary-white;
+		color: $secondary-blue;
 
-        border-radius: 4px;
-        padding: 20px 30px;
+		border-radius: 4px;
+		padding: 20px 30px;
 
-        position: relative;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        text-align: center;
+		position: relative;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		text-align: center;
 
-		@include media("<455px") {
+		@include media('<455px') {
 			flex-basis: 100%;
 		}
 
-        h1 {
-            font-size: 1.375rem;
-            font-weight: bold;
+		h1 {
+			font-size: 1.375rem;
+			font-weight: bold;
 			padding: 0.8rem 0;
-        }
+		}
 
-        p {
-            padding: 1.2rem 0px;
+		p {
+			padding: 1.2rem 0px;
 			padding-bottom: 2rem;
-            font-family: Mulish;
-            font-size: 0.875rem;
-            width: 90%;
-        }
+			font-family: Mulish;
+			font-size: 0.875rem;
+			width: 90%;
+		}
 
-        &:hover {
-            flex-grow: 1.2;
-        }
-    }
+		&:hover {
+			flex-grow: 1.2;
+		}
+	}
+}
+
+// Formatting for the markdown tutorial container
+.tutorial {
+	padding-bottom: 4rem;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	// All formatting for the actual markdown
+	// Tutorial headers
+	h1 {
+		font-size: 3rem;
+
+		padding: 22px;
+		padding-top: 8.875rem;
+
+		&:first-child {
+			padding-top: 0;
+		}
+	}
+
+	// Tutorial text
+	p {
+		font-size: 1.125rem;
+		width: 80%;
+	}
 }
