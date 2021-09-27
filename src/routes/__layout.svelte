@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <script lang="ts">
 	import '../css/global.scss';
 	import Header from '$lib/header/Header.svelte';
