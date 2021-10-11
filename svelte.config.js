@@ -1,5 +1,6 @@
 import { mdsvex } from "mdsvex";
 import preprocess from 'svelte-preprocess';
+// Deploying to Vercel
 import vercel from '@sveltejs/adapter-vercel';
 import path from 'path';
 import { fileURLToPath } from 'url';

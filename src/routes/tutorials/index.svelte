@@ -1,4 +1,5 @@
 <script lang="ts" context="module">
+	// Fetch the JSON file for all markdown files
 	export async function load({ fetch }) {
 		const res = await fetch(`/tutorials/tutorials.json`);
 		const { tutorials } = await res.json();

@@ -1,6 +1,7 @@
 <script>
 	import Hero from '$lib/hero/Hero.svelte';
 
+	// Extract title and description from markdown
 	export let title;
 	export let description;
 </script>

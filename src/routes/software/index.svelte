@@ -2,13 +2,14 @@
 	import Hero from '$lib/hero/Hero.svelte';
 	import downloadsJson from './downloads.json';
 
-	// Async function so loads as rest of page loads
+	// Get all of our downloads categories to render sections
 	async function getCategories() {
 		return downloadsJson.categories;
 	}
 
 	const downloads = getCategories();
 
+	// Selected category to display downloads
 	$: selected_category = 'all';
 </script>
 
@@ -80,6 +81,7 @@
 		}
 	}
 
+	// Make it scale correctly
 	button {
 		&.btn {
 			@include media('<455px') {
@@ -88,7 +90,7 @@
 		}
 	}
 
-	// Section header
+	// Download section header
 	.section-header {
 		padding: 40px 0;
 

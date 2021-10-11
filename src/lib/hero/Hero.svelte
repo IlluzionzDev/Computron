@@ -26,12 +26,14 @@
 			padding-bottom: 5rem;
 		}
 
+		// Header content in hero
 		:global(h1) {
 			font-size: 3rem;
 			font-weight: bold;
 			padding-bottom: 15px;
 		}
 
+		// Description
 		:global(p) {
 			font-size: 1.125rem;
 			font-family: Mulish;
@@ -43,6 +45,7 @@
 		}
 	}
 
+	// Center hero if needed
 	.centered {
 		align-items: center;
 		text-align: center;

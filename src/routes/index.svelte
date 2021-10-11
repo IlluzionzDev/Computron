@@ -1,5 +1,7 @@
 <script lang="ts">
 	import Hero from '$lib/hero/Hero.svelte';
+
+	// Optimized SVG icons
 	import chrome from '../img/icon/chrome.svg';
 	import google_docs from '../img/icon/google-docs.svg';
 	import headphones from '../img/icon/headphones.svg';
@@ -44,6 +46,7 @@
 			</div>
 			<a href="/software"><button class="btn btn-solid">MORE INFO</button></a>
 		</div>
+
 		<div class="section-card">
 			<h1>Tutorials</h1>
 			<div class="overview-row">
@@ -73,6 +76,7 @@
 	@import '../css/colors.scss';
 	@import '../css/include-media.scss';
 
+	// Page overview card
 	.section-card {
 		width: 80%;
 		display: flex;
@@ -88,9 +92,9 @@
 		padding: 40px 25px;
 
 		margin-bottom: 100px;
-
 		border-radius: 4px;
 
+		// Full width on smaller displays
 		@include media('<desktop') {
 			width: 100%;
 		}
@@ -100,6 +104,7 @@
 			margin-left: auto;
 		}
 
+		// Row of icons and descriptions
 		& .overview-row {
 			display: flex;
 			flex-direction: row;
@@ -142,6 +147,7 @@
 			}
 		}
 
+		// Card header
 		h1 {
 			font-size: 2.25rem;
 			font-weight: bold;

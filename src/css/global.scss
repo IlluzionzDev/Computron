@@ -44,10 +44,14 @@ html {
 
 // Our main background colour
 body {
+	// Make sure no horizontal scroll
 	overflow-x: hidden;
+	// Reset position
 	position: relative;
 	margin: 0;
 	padding: 0;
+
+	// Default colours
 	background-color: $secondary-blue;
 	color: $white !important;
 
@@ -55,11 +59,12 @@ body {
 	font-family: 'Cabin', sans-serif;
 }
 
-// Alot of responsiveness comes from this container
+// Wraps the whole page content. Keeps everything in the center
 .container {
 	width: 60vw;
 	margin: 0 auto;
 
+	// Widens as viewport shrinks
 	@include media('<1700px') {
 		width: 80vw;
 	}
@@ -69,6 +74,7 @@ body {
 	}
 }
 
+// A row of buttons that provides some padding
 .button-row {
 	padding: 30px 0;
 	display: flex;
@@ -76,6 +82,7 @@ body {
 
 	gap: 0 30px;
 
+	// When too small stack on one another
 	@include media('<455px') {
 		flex-direction: column;
 		gap: 10px 0;
@@ -125,6 +132,7 @@ button {
 			}
 		}
 
+		// Button with outline
 		&.btn-outline {
 			background-color: transparent;
 			border: solid 1.5px $primary-blue;
@@ -143,8 +151,9 @@ button {
 	}
 }
 
-// Custom card layouts
+// A layout of our cards
 .cards {
+	// FLEXBOX IS COOL
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -157,7 +166,9 @@ button {
 		padding-bottom: 50px;
 	}
 
+	// Style the card
 	& .card {
+		// Animations
 		transition: all 0.5s;
 
 		flex: 1;
@@ -178,6 +189,7 @@ button {
 		justify-content: center;
 		text-align: center;
 
+		// On phone make card full width
 		@include media('<455px') {
 			flex-basis: 100%;
 		}
@@ -196,6 +208,7 @@ button {
 			width: 90%;
 		}
 
+		// Cool hover effects
 		&:hover {
 			flex-grow: 1.2;
 		}
@@ -227,6 +240,7 @@ button {
 
 	// Tutorial text
 	p {
+		font-family: Mulish;
 		font-size: 1.125rem;
 		width: 80%;
 	}
