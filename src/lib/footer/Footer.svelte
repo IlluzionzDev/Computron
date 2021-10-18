@@ -35,6 +35,7 @@
 	@import '../../css/colors.scss';
 	@import '../../css/include-media.scss';
 
+	// Vertical center
 	footer {
 		display: flex;
 		justify-content: space-between;
@@ -42,11 +43,13 @@
 		flex-direction: column;
 	}
 
+	// Gradient SVG
 	.footer-background {
 		width: 100vw;
 		z-index: -999;
 	}
 
+	// Make colour blend with gradient waves
 	.footer-container {
 		background-color: $primary-blue;
 		width: 100%;
@@ -75,6 +78,7 @@
 			}
 
             // Each part of the footer content
+			// Align to it's respective sign
 			& .footer-content {
 				&-1 {
                     text-align: left;
@@ -85,6 +89,7 @@
 					display: flex;
 					align-items: center;
 
+					// Set logo size
 					img {
 						height: 1.5rem;
 					}

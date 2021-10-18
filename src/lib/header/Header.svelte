@@ -30,6 +30,7 @@
 		align-items: center;
 	}
 
+	// Put gradient waves at top of header
 	.header-background {
 		position: absolute;
 		top: 0;
@@ -81,12 +82,13 @@
 					}
 				}
 
-				// Make first element on left and align to edges of
+				// Make first element on left (logo)
 				&:first-child {
 					margin-right: auto;
 					padding-left: 0;
 				}
 
+				// Make sure expands full width
 				&:last-child {
 					padding-right: 0;
 				}
