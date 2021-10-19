@@ -148,6 +148,11 @@ button {
 				border: none;
 			}
 		}
+
+		// Button in the tutorial should have some padding around it
+		&.btn-tutorial {
+			margin: 1.4rem 0;
+		}
 	}
 }
 
@@ -238,10 +243,31 @@ button {
 		}
 	}
 
+	// Sub headings
+	h2 {
+		padding: 1.4rem 0;
+	}
+
+	// List elements
+	li {
+		list-style: none;
+
+		padding: 0.5rem;
+		margin: 0.4rem 0;
+		border: 2px solid $primary-blue;
+		border-radius: 4px;
+		text-align: left;
+	}
+
 	// Tutorial text
 	p {
 		font-family: Mulish;
 		font-size: 1.125rem;
 		width: 80%;
+	}
+
+	// Integrated images
+	img {
+		margin: 1.4rem 0;
 	}
 }
