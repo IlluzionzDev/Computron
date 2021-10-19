@@ -12,7 +12,9 @@ const config = {
     extensions: ['.svelte', '.md'],
 
     preprocess: [
-		preprocess(),
+		preprocess({
+			sourceMap: true
+		}),
 		mdsvex({
 			extensions: ['.md'],
 			// The layout for our tutorial files
