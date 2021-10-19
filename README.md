@@ -49,6 +49,8 @@ which contain titles and children. The following is the structure of the json
 
 ## Build Setup
 
+Make sure you have installed the latest version of [NodeJS](https://nodejs.org/en/download/) to run this project
+
 ```bash
 # Install all dependencies
 $ npm install
